@@ -1,6 +1,6 @@
 {
   "name": "typescript-domhelper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTML DOM helper for Typescript",
   "main": "./build/index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "bugs": {
     "url": "https://github.com/ChannelOne/typescript-domhelper/issues"
   },
-  "typings": "./build/index.d.js",
+  "tyings": "./build/index.d.ts",
   "homepage": "https://github.com/ChannelOne/typescript-domhelper#readme"
 }
