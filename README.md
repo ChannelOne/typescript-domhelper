@@ -4,6 +4,12 @@ DOM helper for Typescript.
 The `elem` method is powerful for dom generation,
 it also has `Elem`, `element` alias.
 
+## Install
+
+```
+npm i typescript-domhelper
+```
+
 ## Powerful element generation
 
 Usage:
