@@ -1,6 +1,6 @@
 {
   "name": "typescript-domhelper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "HTML DOM helper for Typescript",
   "main": "./build/index.js",
   "scripts": {

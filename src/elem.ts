@@ -1,6 +1,11 @@
 
 /**
  * Element generator
+ * 
+ * @param tagName the HTML tag, such as `div`, `p`, etc.
+ * @param classStr (Optional)
+ * @param properties (Optional)the properties of HTML element.
+ * @param children (Optional)a list of HTML Node
  */
 export function elem(tagName: string, classStr?: string, properties?: {any: string}, children?: Node[]): HTMLElement {
     var dom = document.createElement(tagName);
@@ -21,11 +26,21 @@ export function elem(tagName: string, classStr?: string, properties?: {any: stri
 }
 
 /**
- * alias of `elem`
+ * Alias of `elem`
+ * 
+ * @param tagName the HTML tag, such as `div`, `p`, etc.
+ * @param classStr (Optional)
+ * @param properties (Optional)the properties of HTML element.
+ * @param children (Optional)a list of HTML Node
  */
 export const element = elem;
 
 /**
- * alias of `elem`
+ * Alias of `elem`
+ * 
+ * @param tagName the HTML tag, such as `div`, `p`, etc.
+ * @param classStr (Optional)
+ * @param properties (Optional)the properties of HTML element.
+ * @param children (Optional)a list of HTML Node
  */
 export const Elem = elem;

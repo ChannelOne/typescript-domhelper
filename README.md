@@ -22,7 +22,7 @@ let myElement1 = elem("p");
 
 let myElement2 = Elem("div", "container"); // the same as above
 
-let myElement3 = element("a", "", {
+let myElement3 = element("a", "", { // the same as above
     id: "myAnchor"
 });
 
@@ -47,7 +47,7 @@ The `Dom` class api have the same parameters as `elem`,  but it can specific the
 
 Usage:
 
-```
+```typescript
 import {Dom} from "typescript-domhelper"
 
 let myDiv = Dom.Div("container"); // the type of `myDiv` is HTMLDivElement
