@@ -2,7 +2,7 @@
 DOM helper for Typescript.
 
 The `elem` method is powerful for dom generation,
-it also has `Elem`, `element` alias.
+it also has alias called `element`.
 
 ## Install
 
@@ -16,11 +16,9 @@ Usage:
 
 ```typescript
 
-import {elem, Elem, element} from "typescript-domhelper"
+import {elem, element, text} from "typescript-domhelper"
 
 let myElement1 = elem("p");
-
-let myElement2 = Elem("div", "container"); // the same as above
 
 let myElement3 = element("a", "", { // the same as above
     id: "myAnchor"
@@ -33,7 +31,7 @@ let myElement6: HTMLElement;
 let myElement4 = elem("div", "container", null, [
     myElement5 = elem("div", "container", null, [
         myElement6 = elem("p", "", null, [
-            document.createTextNode("Hello world!")
+            text("Hello world!")
         ],
         myElement3,
     ]

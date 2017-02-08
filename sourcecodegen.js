@@ -22,7 +22,7 @@ function getHTMLType(tagContent) {
 function genDefinition(tagContent) {
     var t = getHTMLType(tagContent);
     return "\n" +
-    "    static " + tagContent + "(classStr?: string, properties?: {any: string}, children?: Node[]): " + t + " {\n" +
+    "    static " + tagContent + "(classStr?: string, properties?: any, children?: Node[]): " + t + " {\n" +
     "        return <" + t +">elem(\"" + tagContent.toLowerCase() + "\", classStr, properties, children);\n" +
     "    }\n";
 }
