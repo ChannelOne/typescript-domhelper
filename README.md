@@ -12,6 +12,8 @@ npm i typescript-domhelper
 
 ## Powerful element generation
 
+Use Typescript to generate DOM tree.
+
 Usage:
 
 ```typescript
@@ -41,7 +43,10 @@ let myElement4 = elem("div", "container", null, [
 
 ## Powerful typed element generation
 
+Now let's see the real magic, DOM generation with typed.
 The `Dom` class api have the same parameters as `elem`,  but it can specific the type of the return value, it contains **all** the elements of HTML.
+
+![dom.gif](https://ooo.0o0.ooo/2017/02/08/589af7568ae5f.gif)
 
 Usage:
 
